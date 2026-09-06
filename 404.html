@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Timetables</title>
+  <script>
+    // GitHub Pages has no server-side rewrites, so a direct visit to
+    // "/Spinzi" is served this 404 page. We redirect back to the real
+    // app, encoding the intended path in a query string that index.html
+    // decodes and replaces via history.replaceState before the router runs.
+    // This is the standard "spa-github-pages" technique.
+    var path = window.location.pathname + window.location.search + window.location.hash;
+    window.location.replace('/?redirect=' + encodeURIComponent(path));
+  </script>
+</head>
+<body></body>
+</html>

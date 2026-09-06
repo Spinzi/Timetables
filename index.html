@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Timetables &mdash; know what class you're in</title>
+  <meta name="description" content="A link-based timetable for students. See your current and next class at a glance." />
+  <meta name="color-scheme" content="dark light" />
+  <link rel="icon" href="data:," />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+  <script>
+    // Companion to 404.html: if we were bounced here from a deep link,
+    // restore the real URL before the router reads it.
+    (function () {
+      var params = new URLSearchParams(window.location.search);
+      var redirect = params.get('redirect');
+      if (redirect) {
+        window.history.replaceState({}, '', redirect);
+      }
+    })();
+  </script>
+  <div id="app"></div>
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>

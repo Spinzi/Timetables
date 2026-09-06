@@ -1,0 +1,24 @@
+{
+  "name": "Alex",
+  "days": {
+    "Monday": [
+      { "startTime": "09:00", "endTime": "09:45", "name": "Economics", "teacher": "Mr. Georgescu" },
+      { "startTime": "09:55", "endTime": "10:40", "name": "Mathematics", "teacher": "Mrs. Neagu" },
+      { "startTime": "11:00", "endTime": "11:45", "name": "Philosophy" }
+    ],
+    "Tuesday": [
+      { "startTime": "09:00", "endTime": "09:45", "name": "Mathematics", "teacher": "Mrs. Neagu" },
+      { "startTime": "09:55", "endTime": "10:40", "name": "Physical Education" }
+    ],
+    "Wednesday": [],
+    "Thursday": [
+      { "startTime": "10:00", "endTime": "10:45", "name": "Economics", "teacher": "Mr. Georgescu" },
+      { "startTime": "10:55", "endTime": "11:40", "name": "Logic" }
+    ],
+    "Friday": [
+      { "startTime": "08:30", "endTime": "09:15", "name": "English", "teacher": "Ms. Barbu" }
+    ],
+    "Saturday": [],
+    "Sunday": []
+  }
+}

@@ -1,0 +1,135 @@
+// ---------------------------------------------------------------------------
+// Theme system.
+//
+// Each theme is nothing more than a set of CSS custom properties. To add a
+// new theme, add one object below — nothing else in the app needs to change.
+// ---------------------------------------------------------------------------
+
+export const THEME_VARS = [
+  'bg',
+  'bg-elevated',
+  'surface',
+  'surface-hover',
+  'border',
+  'text',
+  'text-muted',
+  'primary',
+  'primary-contrast',
+  'secondary',
+  'accent-now',
+  'accent-next',
+  'danger',
+];
+
+export const THEMES = {
+  default: {
+    label: 'Default',
+    vars: {
+      bg: '#12141a',
+      'bg-elevated': '#181b23',
+      surface: '#1e222c',
+      'surface-hover': '#262b37',
+      border: '#2c313d',
+      text: '#eef0f5',
+      'text-muted': '#8d94a6',
+      primary: '#6c8cff',
+      'primary-contrast': '#0b0d12',
+      secondary: '#56d2a0',
+      'accent-now': '#ffb454',
+      'accent-next': '#56d2a0',
+      danger: '#ff6b6b',
+    },
+  },
+  white: {
+    label: 'White',
+    vars: {
+      bg: '#f7f7fa',
+      'bg-elevated': '#ffffff',
+      surface: '#ffffff',
+      'surface-hover': '#eef0f5',
+      border: '#e1e4ea',
+      text: '#161821',
+      'text-muted': '#6b7080',
+      primary: '#3b5bdb',
+      'primary-contrast': '#ffffff',
+      secondary: '#0f9d78',
+      'accent-now': '#e8720c',
+      'accent-next': '#0f9d78',
+      danger: '#d9364a',
+    },
+  },
+  black: {
+    label: 'Black',
+    vars: {
+      bg: '#000000',
+      'bg-elevated': '#0a0a0a',
+      surface: '#121212',
+      'surface-hover': '#1c1c1c',
+      border: '#262626',
+      text: '#f2f2f2',
+      'text-muted': '#8a8a8a',
+      primary: '#9d8bff',
+      'primary-contrast': '#080808',
+      secondary: '#4fd1a5',
+      'accent-now': '#ffb454',
+      'accent-next': '#4fd1a5',
+      danger: '#ff6b6b',
+    },
+  },
+  red: {
+    label: 'Red',
+    vars: {
+      bg: '#160b0b',
+      'bg-elevated': '#1d0f0f',
+      surface: '#241313',
+      'surface-hover': '#2e1717',
+      border: '#3a1c1c',
+      text: '#f6ecec',
+      'text-muted': '#a68989',
+      primary: '#ff5c5c',
+      'primary-contrast': '#160b0b',
+      secondary: '#ffb454',
+      'accent-now': '#ffd23f',
+      'accent-next': '#ff8c69',
+      danger: '#ff3b3b',
+    },
+  },
+  blue: {
+    label: 'Blue',
+    vars: {
+      bg: '#0a1120',
+      'bg-elevated': '#0e1729',
+      surface: '#132038',
+      'surface-hover': '#182a47',
+      border: '#20345a',
+      text: '#eaf1ff',
+      'text-muted': '#8ea3c9',
+      primary: '#4da3ff',
+      'primary-contrast': '#061020',
+      secondary: '#5be0d0',
+      'accent-now': '#ffcb5c',
+      'accent-next': '#5be0d0',
+      danger: '#ff6b6b',
+    },
+  },
+  pink: {
+    label: 'Pink',
+    vars: {
+      bg: '#1a0f16',
+      'bg-elevated': '#20131b',
+      surface: '#291823',
+      'surface-hover': '#331e2d',
+      border: '#402531',
+      text: '#fbeef4',
+      'text-muted': '#b491a3',
+      primary: '#ff7ab8',
+      'primary-contrast': '#1a0f16',
+      secondary: '#ffb454',
+      'accent-now': '#ffd166',
+      'accent-next': '#ff9fc9',
+      danger: '#ff5c7a',
+    },
+  },
+};
+
+export const DEFAULT_CUSTOM_VARS = { ...THEMES.default.vars };

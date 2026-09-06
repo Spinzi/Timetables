@@ -1,0 +1,38 @@
+{
+  "name": "Spinzi",
+  "days": {
+    "Monday": [
+      { "startTime": "08:00", "endTime": "08:50", "name": "Mathematics", "teacher": "Mrs. Popescu" },
+      { "startTime": "09:00", "endTime": "09:50", "name": "Computer Science", "teacher": "Mr. Ionescu" },
+      { "startTime": "10:00", "endTime": "10:50", "name": "Physics", "teacher": "Mr. Stan" },
+      { "startTime": "11:10", "endTime": "12:00", "name": "Romanian", "teacher": "Mrs. Dumitru" },
+      { "startTime": "12:10", "endTime": "13:00", "name": "English", "teacher": "Ms. Radu" }
+    ],
+    "Tuesday": [
+      { "startTime": "08:00", "endTime": "08:50", "name": "Chemistry", "teacher": "Mrs. Enache" },
+      { "startTime": "09:00", "endTime": "09:50", "name": "Biology", "teacher": "Mr. Marin" },
+      { "startTime": "10:00", "endTime": "10:50", "name": "History", "teacher": "Mrs. Toma" },
+      { "startTime": "11:10", "endTime": "12:00", "name": "Physical Education" }
+    ],
+    "Wednesday": [
+      { "startTime": "08:00", "endTime": "08:50", "name": "Mathematics", "teacher": "Mrs. Popescu" },
+      { "startTime": "09:00", "endTime": "09:50", "name": "Computer Science", "teacher": "Mr. Ionescu" },
+      { "startTime": "10:00", "endTime": "10:50", "name": "Computer Science", "teacher": "Mr. Ionescu" },
+      { "startTime": "11:10", "endTime": "12:00", "name": "Geography", "teacher": "Mr. Vasile" },
+      { "startTime": "12:10", "endTime": "13:00", "name": "Art" }
+    ],
+    "Thursday": [
+      { "startTime": "08:00", "endTime": "08:50", "name": "English", "teacher": "Ms. Radu" },
+      { "startTime": "09:00", "endTime": "09:50", "name": "Mathematics", "teacher": "Mrs. Popescu" },
+      { "startTime": "10:00", "endTime": "10:50", "name": "Physics", "teacher": "Mr. Stan" },
+      { "startTime": "11:10", "endTime": "12:00", "name": "Music" }
+    ],
+    "Friday": [
+      { "startTime": "08:00", "endTime": "08:50", "name": "Romanian", "teacher": "Mrs. Dumitru" },
+      { "startTime": "09:00", "endTime": "09:50", "name": "History", "teacher": "Mrs. Toma" },
+      { "startTime": "10:00", "endTime": "10:50", "name": "Biology", "teacher": "Mr. Marin" }
+    ],
+    "Saturday": [],
+    "Sunday": []
+  }
+}
