@@ -130,6 +130,42 @@ export const THEMES = {
       danger: '#ff5c7a',
     },
   },
+  strangerThings: {
+    label: 'Stranger Things',
+    vars: {
+      bg: '#08090c',
+      'bg-elevated': '#101116',
+      surface: '#17181e',
+      'surface-hover': '#22232b',
+      border: '#3a1c22',
+      text: '#f1e9e6',
+      'text-muted': '#9b8f91',
+      primary: '#d51f2f',
+      'primary-contrast': '#08090c',
+      secondary: '#5b6cff',
+      'accent-now': '#ff3b30',
+      'accent-next': '#7b61ff',
+      danger: '#ff1717',
+    },
+  },
+  strangerThingsV2: {
+    label: 'Stranger Things V2',
+    vars: {
+      bg: '#050507',
+      'bg-elevated': '#0c0b0e',
+      surface: '#141116',
+      'surface-hover': '#21171b',
+      border: '#3d2025',
+      text: '#f4eeee',
+      'text-muted': '#9c8589',
+      primary: '#e21e2b',
+      'primary-contrast': '#050507',
+      secondary: '#6d63ff',
+      'accent-now': '#ff3038',
+      'accent-next': '#8278ff',
+      danger: '#ff101c',
+    },
+  },
 };
 
 export const DEFAULT_CUSTOM_VARS = { ...THEMES.default.vars };
