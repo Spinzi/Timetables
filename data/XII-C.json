@@ -21,7 +21,7 @@
       { "startTime": "08:10", "endTime": "09:00", "name": "Informatică" },
       { "startTime": "09:10", "endTime": "10:00", "name": "Informatică" },
       { "startTime": "10:10", "endTime": "11:00", "name": "Română" },
-      { "startTime": "11:10", "endTime": "12:00", "name": "Matematică" },
+      { "startTime": "11:10", "endTime": "12:00", "name": "Română" },
       { "startTime": "12:10", "endTime": "13:00", "name": "Fizică" },
       { "startTime": "13:10", "endTime": "14:00", "name": "Fizică" }
     ],
