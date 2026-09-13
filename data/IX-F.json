@@ -2,42 +2,42 @@
   "name": "IX-F",
   "days": {
     "Monday": [
-      { "startTime": "14:00", "endTime": "14:45", "name": "Procese de Producție" },
-      { "startTime": "15:00", "endTime": "15:45", "name": "Domeniu Artistic" },
+      { "startTime": "14:00", "endTime": "14:45", "name": "Limba și Literatura Română" },
+      { "startTime": "15:00", "endTime": "15:45", "name": "Procese de Producție" },
       { "startTime": "16:00", "endTime": "16:45", "name": "TIC" },
       { "startTime": "17:00", "endTime": "17:45", "name": "Chimie" },
-      { "startTime": "18:00", "endTime": "18:45", "name": "Limba Engleză" },
-      { "startTime": "19:00", "endTime": "19:45", "name": "Educație Fizică" }
+      { "startTime": "18:00", "endTime": "18:45", "name": "Educație Fizică" },
+      { "startTime": "19:00", "endTime": "19:45", "name": "Domeniu Artistic" }
     ],
     "Tuesday": [
-      { "startTime": "14:00", "endTime": "14:45", "name": "Biologie" },
-      { "startTime": "15:00", "endTime": "15:45", "name": "Religie" },
-      { "startTime": "16:00", "endTime": "16:45", "name": "Procese de Producție" },
-      { "startTime": "17:00", "endTime": "17:45", "name": "Etică și Comunicare Profesională" },
-      { "startTime": "18:00", "endTime": "18:45", "name": "Logistică" }
+      { "startTime": "14:00", "endTime": "14:45", "name": "Etică și Comunicare Profesională" },
+      { "startTime": "15:00", "endTime": "15:45", "name": "Limba Engleză" },
+      { "startTime": "16:00", "endTime": "16:45", "name": "Bazele Contabilității" },
+      { "startTime": "17:00", "endTime": "17:45", "name": "Limba și Literatura Română" },
+      { "startTime": "18:00", "endTime": "18:45", "name": "Procese de Producție" },
+      { "startTime": "19:00", "endTime": "19:45", "name": "Religie" }
     ],
     "Wednesday": [
       { "startTime": "14:00", "endTime": "14:45", "name": "Matematică" },
-      { "startTime": "15:00", "endTime": "15:45", "name": "Limba și Literatura Română" },
-      { "startTime": "16:00", "endTime": "16:45", "name": "Structuri de Primire Turistică" },
-      { "startTime": "17:00", "endTime": "17:45", "name": "Bazele Contabilității" },
-      { "startTime": "18:00", "endTime": "18:45", "name": "Etică și Comunicare Profesională" }
+      { "startTime": "15:00", "endTime": "15:45", "name": "Geografie" },
+      { "startTime": "16:00", "endTime": "16:45", "name": "Etică și Comunicare Profesională" },
+      { "startTime": "17:00", "endTime": "17:45", "name": "Structuri de Primire Turistică" },
+      { "startTime": "18:00", "endTime": "18:45", "name": "Bazele Contabilității" }
     ],
     "Thursday": [
-      { "startTime": "14:00", "endTime": "14:45", "name": "Geografie" },
-      { "startTime": "15:00", "endTime": "15:45", "name": "Limba și Literatura Română" },
-      { "startTime": "16:00", "endTime": "16:45", "name": "Matematică" },
-      { "startTime": "17:00", "endTime": "17:45", "name": "Limba Franceză" },
-      { "startTime": "18:00", "endTime": "18:45", "name": "Procese de Producție" },
-      { "startTime": "19:00", "endTime": "19:45", "name": "Bazele Contabilității" }
+      { "startTime": "14:00", "endTime": "14:45", "name": "Matematică" },
+      { "startTime": "15:00", "endTime": "15:45", "name": "Structuri de Primire Turistică" },
+      { "startTime": "16:00", "endTime": "16:45", "name": "Procese de Producție" },
+      { "startTime": "17:00", "endTime": "17:45", "name": "Biologie" },
+      { "startTime": "18:00", "endTime": "18:45", "name": "Fizică" },
+      { "startTime": "19:00", "endTime": "19:45", "name": "Limba Franceză" }
     ],
     "Friday": [
-      { "startTime": "14:00", "endTime": "14:45", "name": "Procese de Producție" },
-      { "startTime": "15:00", "endTime": "15:45", "name": "Structuri de Primire Turistică" },
-      { "startTime": "16:00", "endTime": "16:45", "name": "Fizică" },
-      { "startTime": "17:00", "endTime": "17:45", "name": "Limba Engleză" },
-      { "startTime": "18:00", "endTime": "18:45", "name": "Limba și Literatura Română" },
-      { "startTime": "19:00", "endTime": "19:45", "name": "Istorie" }
+      { "startTime": "14:00", "endTime": "14:45", "name": "Istorie" },
+      { "startTime": "15:00", "endTime": "15:45", "name": "Limba și Literatura Română" },
+      { "startTime": "16:00", "endTime": "16:45", "name": "Procese de Producție" },
+      { "startTime": "17:00", "endTime": "17:45", "name": "Logistică" },
+      { "startTime": "18:00", "endTime": "18:45", "name": "Limba Engleză" }
     ],
     "Saturday": [],
     "Sunday": []
